@@ -14,4 +14,14 @@ print(y > x * x or y >= 2 * x and x < y)
 #         print("Недосып")
 
 n = int(input())
+if n%4!=0:
+    print("Обычный")
+else:
+    if n%100==0:
+        if n%400==0:
+            print("Високосный")
+        else:
+            print("Обычный")
 
+    else:
+         print("Високосный")
