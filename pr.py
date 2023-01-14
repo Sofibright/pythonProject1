@@ -52,3 +52,72 @@ print(y > x * x or y >= 2 * x and x < y)
 #     if i > 7:
 #         i = i + 2
 #         print(i)
+
+# a = int(input())
+# s = 0
+# while a != 0:
+#     s += a
+#     a = int(input())
+# print(s)
+
+
+# aa = int(input())
+# bb = int(input())
+# a = aa
+# b = bb
+#
+# if b > a:
+#     a, b = b, a
+# while a % b != 0:
+#     r = a % b
+#     d = a // b
+#     a = b
+#     b = r
+# t = aa * bb // b
+# print(t)
+
+
+# while True:
+#     i = int(input())
+#     if i < 10:
+#         continue
+#     if i > 100:
+#         break
+#     print(i)
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+
+# for i in range(c, d + 1):
+#     print(i, end="\t")
+# print()
+#
+# for i in range(c, d + 1):
+#     print(j)
+#     for j in range(a, b+1):
+#
+#         print(j*i, end="\t")
+#     print()
+
+# for i in range(a, b + 1):
+#     print(i, end="\t")
+# print()
+# for i in range(a, b + 1):
+#     print(i)
+#     for j in range(c, d+1):
+#         print(j)
+#         print(j*i, end="\t")
+#     print()
+
+# s = 'abcdefghijk'
+# res = s[3:6]
+# res = s[:6]
+# res = s[3:]
+# res = s[::-1]
+# res = s[-3:]
+# res = s[:-6]
+# res = s[-1:-10:-2]
+
+s = input()
