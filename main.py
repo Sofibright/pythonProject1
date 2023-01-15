@@ -9,3 +9,14 @@
 # print(((x+h*60+m)%60))
 # z = [int(s) for s in input().split()]
 # print(sum(z))
+# a = [int(i) for i in input().split()]
+# if len(a) ==1:
+#     print(a[0])
+# else:
+#     b = str()
+#     for i in range(0, len(a)):
+#         buffer = a[i - 1] + a[(i + 1) % len(a)]
+#         b += str(buffer) + ' '
+#     print(b)
+
+
